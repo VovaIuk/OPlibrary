@@ -2,21 +2,21 @@
 
 ostream& operator <<(ostream& os, const Format format) {
 	if (Format::Text == format)
-		os << "Текст";
+		os << "234324234";
 	if (Format::Audio == format)
-		os << "Аудио";
+		os << "234324234";
 	if (Format::Podcast == format)
-		os << "Подкаст";
+		os << "324324";
 	return os;
 }
 
 ostream& operator <<(ostream& os, const Language language) {
 	if (Language::English == language)
-		os << "Английский";
+		os << "234234";
 	if (Language::German == language)
-		os << "Немецкий";
+		os << "234";
 	if (Language::Rssian == language)
-		os << "Русский";
+		os << "23423435345";
 	return os;
 }
 
